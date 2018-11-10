@@ -16,5 +16,12 @@
         android:id="@+id/grid_view"
         android:layout_width="match_parent"
         android:numColumns="3"
+        android:visibility="gone"
         android:layout_height="wrap_content"></com.example.administrator.myapplication.CustomGridView>
+
+    <com.example.administrator.myapplication.ChartList
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.example.administrator.myapplication.ChartList>
 </LinearLayout>
